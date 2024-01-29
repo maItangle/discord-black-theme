@@ -1,6 +1,6 @@
 /**
  * @name Black theme
- * @version 1.01
+ * @version 1.02
  * @author maltangle
  * @authorId 
  * @description Darker than dark theme but lighter than amoled.
@@ -12,17 +12,25 @@
 .theme-dark .da-headerSpotify .da-body,
 .theme-dark .da-headerStreaming .da-body,
 .theme-dark .da-emptyStateContainer {
-	background: #1d1d1f; }
+	background: var(--channeltextarea-background); 
+}
+
+.theme-dark .reaction_fef95b {
+    background-color: var(--background-accent-alt);
+}
 
 .theme-dark .da-peopleList {
-	background-color: #0b0b0c ;}
+	background-color: var(--background-primary);
+}
 
 .theme-dark .da-body, 
 .theme-dark .da-userPopout .da-footer { 
-	background-color: #121213; }
+	background-color: var(--background-secondary); 
+}
 
 .theme-dark div[class^="tabBody-"] {
-	background-color: #0b0b0c; }
+	background-color: var(--background-primary); 
+}
 
 .theme-dark { 
     
@@ -37,13 +45,14 @@
     --interactive-active: #fff;
     --interactive-muted: #4a4e54;
     --background-primary: #0b0b0c;
-    --background-secondary: #121213;
-    --background-secondary-alt: #171719;
-    --background-tertiary: #1a1a1b;
+    --background-secondary: #1f1f20; /* 121213 */
+    --background-secondary-alt: #171719; 
+    --background-tertiary: #2a2b2d; /* #1a1a1b */
     --background-accent: #4f545c;
+    --background-accent-alt: #2a2b2d;
     --background-floating: #18191c;
     --background-mobile-primary: #0b0b0c;
-    --background-mobile-secondary: #121213;  /* #2f3136; */
+    --background-mobile-secondary: #121213; 
     --background-modifier-hover: rgba(79,84,92,0.16);
     --background-modifier-active: rgba(79,84,92,0.24);
     --background-modifier-selected: rgba(79,84,92,0.32);
@@ -76,5 +85,4 @@
     --deprecated-quickswitcher-input-background: #72767d;
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
     --deprecated-text-input-bg: rgba(0,0,0,0.1);
-     /* background-color:: #0b0b0c; */
 }
