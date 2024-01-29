@@ -45,9 +45,9 @@
     --interactive-active: #fff;
     --interactive-muted: #4a4e54;
     --background-primary: #0b0b0c;
-    --background-secondary: #1f1f20; /* 121213 */
-    --background-secondary-alt: #171719; 
-    --background-tertiary: #2a2b2d; /* #1a1a1b */
+    --background-secondary: #212122; 
+    --background-secondary-alt: #151516; 
+    --background-tertiary: #151516; 
     --background-accent: #4f545c;
     --background-accent-alt: #2a2b2d;
     --background-floating: #18191c;
