@@ -32,6 +32,10 @@
 	background-color: var(--background-primary); 
 }
 
+.theme-dark .expandedFolderBackground__1bec6 {
+    background-color: var(--background-modifier-selected);
+}
+
 .theme-dark { 
     
     --header-primary: #fff;
