@@ -1,6 +1,6 @@
 /**
  * @name Black theme
- * @version 1.02
+ * @version 1.03
  * @author maltangle
  * @authorId 
  * @description Darker than dark theme but lighter than amoled.
@@ -14,24 +14,20 @@
 .theme-dark .da-emptyStateContainer {
 	background: var(--channeltextarea-background); 
 }
-
+.theme-dark div[class^="tabBody-"],
 .theme-dark .da-peopleList {
 	background-color: var(--background-primary);
 }
-
 .theme-dark .da-body, 
 .theme-dark .da-userPopout .da-footer { 
 	background-color: var(--background-secondary); 
 }
-
-.theme-dark div[class^="tabBody-"] {
-	background-color: var(--background-primary); 
+.theme-dark .reaction_fef95b {
+    background-color: var(--background-reaction);
 }
-.theme-dark .reaction_fef95b,
 .theme-dark .expandedFolderBackground__1bec6 {
     background-color: var(--background-modifier-selected);
 }
-
 .theme-dark { 
     
     --header-primary: #fff;
@@ -49,7 +45,8 @@
     --background-secondary-alt: #111112; 
     --background-tertiary: #1d1d1e;
     --background-accent: #4f545c;
-    --background-floating: #18191c;
+    --background-floating: #18191c; 
+    --background-reaction: #202226;
     --background-mobile-primary: #0b0b0c;
     --background-mobile-secondary: #121213; 
     --background-modifier-hover: rgba(79,84,92,0.16);
